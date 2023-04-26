@@ -12,31 +12,14 @@ server:
 
 spring:
   application:
-    name: telebot
-#  cloud:
-#    gcp:
-#      sql:
-#        instance-connection-name: braided-rush-383415:us-central1:postgres-01
-#        database-name: telebot
+    name: telebot-mini
+
+#telegrambot:
+#  userName: Choo1bot
+#  #botToken: 710277744:AAHze1GFOc7yTxPjCWXrckQ-azKA7bYTW0Y #
+#  botToken: 5905838405:AAEN3TSJo_JxW3oaQ82pbbb2yPGx1lqOKKM # @LostFoundPetsBot
+#  webHookPath: https://telebot.lostfoundpaw.com/
+#  adminId: 12345
 #
-  datasource:
-    #username: postgres
-    #password: qwert12345
-    #hikari:
-    #  maximum-pool-size: 10
-    url: jdbc:h2:mem:test_db
-    driver-class-name: org.h2.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
-    hibernate:
-      ddl-auto: update
-
-telegrambot:
-  userName: Choo1bot
-  #botToken: 710277744:AAHze1GFOc7yTxPjCWXrckQ-azKA7bYTW0Y #
-  botToken: 5905838405:AAEN3TSJo_JxW3oaQ82pbbb2yPGx1lqOKKM # @LostFoundPetsBot
-  webHookPath: https://telebot.lostfoundpaw.com/
-  adminId: 12345
-
-eventservice:
-  period: 600000
+#eventservice:
+#  period: 600000
