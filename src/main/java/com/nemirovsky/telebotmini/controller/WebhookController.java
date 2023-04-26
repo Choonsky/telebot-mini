@@ -33,6 +33,6 @@ public class WebhookController {
             System.out.println(key + ": " + value);
         }
 
-        return "<h1><center>This is Telebot-mini v1.0 (AWS) testing center</center></h1>";
+        return "<h1><center>This is Telebot-mini v1.1 (AWS) testing center</center></h1>";
     }
 }
